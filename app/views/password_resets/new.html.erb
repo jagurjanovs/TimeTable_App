@@ -2,7 +2,7 @@
 <%= form_tag password_resets_path do %>
     <div class="field">
       <%= label_tag 'Username' %>
-      <%= text_field_tag :email, params[:email], :placeholder => "Email address" %>
+      <%= text_field_tag :email, params[:email] %>
     </div>
     <div class="actions">
       <%= submit_tag :recover, value: "Recover" %>
