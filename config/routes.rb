@@ -1,5 +1,15 @@
 Rails.application.routes.draw do
 
+  get 'events/index'
+
+  get 'events/new'
+
+  get 'events/edit'
+
+  get 'events/show'
+
+  get 'events/delete'
+
   root 'static_pages#index'
 
   resources :users
