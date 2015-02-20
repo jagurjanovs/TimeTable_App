@@ -1,0 +1,37 @@
+<h5><%= link_to 'Edit Meeting', edit_meeting_path %></h5>
+
+<p>
+  <strong>Meeting Name:</strong>
+  <%= @meeting.meeting_name %>
+</p>
+
+<p>
+  <strong>Group Involved:</strong>
+  <%= @meeting.group_involved %>
+</p>
+
+<p>
+  <strong>Created By:</strong>
+  <%= @meeting.meeting_created_by %>
+</p>
+<p>
+  <strong>Meeting Agenda:</strong>
+  <%= @meeting.agenda %>
+</p>
+<p>
+  <strong>Members:</strong>
+  <ul>
+    <li><%= @meeting.memberID1 %></li>
+    <li><%= @meeting.memberID2 %></li>
+    <li><%= @meeting.memberID3 %></li>
+    <li><%= @meeting.memberID4 %></li>
+    <li><%= @meeting.memberID5 %></li>
+    <li><%= @meeting.memberID6 %></li>
+  </ul>
+
+</p>
+<p>
+  <strong>Meeting Time:</strong>
+  <%= DisplayDayTime.display_day_and_time(@meeting.day, @meeting.time) %>
+
+</p>

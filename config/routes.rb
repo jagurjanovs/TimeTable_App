@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
 
-  root 'static_pages#index'
+  root 'static_pages#home'
 
   resources :users
   resources :password_resets
   resources :sessions
+  resources :timetable
+  resources :meetings
 
   get 'account_confirmation', to: 'users#account_confirmation'
   # The priority is based upon order of creation: first created -> highest priority.

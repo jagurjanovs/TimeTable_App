@@ -1,4 +1,7 @@
 class User < ActiveRecord::Base
+
+  has_one :timetbale
+
   #This takes care of authentication and verification
   has_secure_password
 

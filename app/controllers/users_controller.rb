@@ -17,7 +17,7 @@ class UsersController < ApplicationController
     if @user.update_attributes(user_params)
       redirect_to(:action => 'show',:id => @user.id)
     else
-    render('index')
+    render('show')
     end
   end
 

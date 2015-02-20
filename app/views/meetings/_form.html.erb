@@ -1,0 +1,65 @@
+<%= form_for(@meeting) do |f| %>
+    <% if @meeting.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@meeting.errors.count, "error") %> prohibited this meeting from being saved:</h2>
+
+          <ul>
+            <% @meeting.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :group_involved %><br>
+      <%= f.text_field :group_involved %>
+    </div>
+    <div class="field">
+      <%= f.label :meeting_name %><br>
+      <%= f.text_field :meeting_name %>
+    </div>
+    <div class="field">
+      <%= f.label :agenda %><br>
+      <%= f.text_field :agenda %>
+    </div>
+    <div class="field">
+      <%= f.label :meeting_created_by %><br>
+      <%= f.text_field :meeting_created_by %>
+    </div>
+    <div class="field">
+      <%= f.label :memberID1 %><br>
+      <%= f.text_field :memberID1 %>
+    </div>
+    <div class="field">
+      <%= f.label :memberID2 %><br>
+      <%= f.text_field :memberID2 %>
+    </div>
+    <div class="field">
+      <%= f.label :memberID3 %><br>
+      <%= f.text_field :memberID3 %>
+    </div>
+    <div class="field">
+      <%= f.label :memberID4 %><br>
+      <%= f.text_field :memberID4 %>
+    </div>
+    <div class="field">
+      <%= f.label :memberID5 %><br>
+      <%= f.text_field :memberID5 %>
+    </div>
+    <div class="field">
+      <%= f.label :memberID6 %><br>
+      <%= f.text_field :memberID6 %>
+    </div>
+    <div class="field">
+      <%= f.label :day %><br>
+      <%= f.select :day, @days_hash %>
+    </div>
+    <div class="field">
+       <%= f.label :time %><br>
+      <%= f.select :time, @times %>
+    </div>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

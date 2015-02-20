@@ -1,0 +1,14 @@
+<head><script src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.min.js'></script>
+  <link rel="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.css">
+
+  <%= stylesheet_link_tag    :all %>
+  <%= javascript_include_tag :all %>
+
+  <%= javascript_tag do %>
+      $(document).ready(function() {
+      $('#calendar').fullCalendar()
+      });
+  <% end %></head>
+<div id="calendar">
+
+</div>

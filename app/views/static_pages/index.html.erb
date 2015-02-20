@@ -2,10 +2,7 @@
     <div class="notice"><%= flash[:notice] %></div>
 <% end %>
 <p></p>
-<% if signed_in? %>
-    <h2>Hello <%= (user = User.find(session[:user])).email %></h2>
-    <h5><%= link_to "Signout", session_path(user), method: :delete %></h5>
-<% else %>
-    <%= link_to "Register", new_user_path %>
-    <%= link_to "Login", new_session_path %>
-<% end %>
+
+
+
+

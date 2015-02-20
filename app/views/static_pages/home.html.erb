@@ -1,0 +1,10 @@
+<% if signed_in? %>
+    <% (user = User.find(session[:user])).email %>
+    <h5><%= link_to "Signout", session_path(user), method: :delete %></h5>
+    <h4><%= link_to 'Your Profile', user  %></h4>
+<% else %>
+    <%= link_to "Register", new_user_path %>
+    <%= link_to "Login", new_session_path %>
+    <h1>Welcome to the UCC timetable management system!</h1>
+<% end %>
+
