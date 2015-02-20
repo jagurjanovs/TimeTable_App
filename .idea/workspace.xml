@@ -2,122 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7883d692-fd39-422a-b25d-9cbad9cc8fbd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-icons_2694e8_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-icons_3d80b3_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-icons_72a7cf_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/meetings/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/agenda-views.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/ar-ma.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/ar-sa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/ar-tn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/background-events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/basic-views.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/de-at.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/display_day_time.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/meetings/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/en-au.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/en-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/en-gb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/json/events.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/external-dragging.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/fr-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/fullcalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/fullcalendar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/gcal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/gcal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/php/get-events.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/php/get-timezones.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/hi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/meetings/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/timetable/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/jquery-ui.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/cupertino/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/json.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang-all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/languages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lib/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/meetings/new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/pt-br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/selectable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/meetings/show.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/timetable/show.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/sr-cyrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/theme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/timezones.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/demos/php/utils.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/zh-cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fullcalendar-2.2.7/lang/zh-tw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TimeTable_App.iml" afterPath="$PROJECT_DIR$/.idea/TimeTable_App.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/index.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TimeTable_App.iws" />
@@ -529,13 +413,20 @@
       <option name="project" value="LOCAL" />
       <updated>1423576783144</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Second commit">
+      <created>1424428582205</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1424428582205</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33796296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33734939" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -551,7 +442,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33796296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -778,6 +668,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24146982" vertical-offset="197" max-vertical-offset="918">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -899,6 +790,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
