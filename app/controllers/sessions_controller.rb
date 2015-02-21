@@ -18,18 +18,25 @@ class SessionsController < ApplicationController
     end
   end
 
-    def destroy
-      sign_out
-      session_destroy
-      flash[:notice] = "Signed out successfully"
-      redirect_to root_url
-    end
+  #Destroy the session identity
+  def destroy
+    #sign user out method
+    sign_out
+    #end session
+    session_destroy
+    #notify user that session has ended
+    flash[:notice] = "Signed out successfully"
+    #send user back to homepage
+    redirect_to root_url
+  end
 
-    private
-    def check_signed_in
-     if signed_in?
-        flash.now.alert = "Already signed in"
-        redirect_to rool_url
-      end
+  #private method to check if the user is signed in
+  private
+  def check_signed_in
+    #if yes tell user and redirect to home page.
+    if signed_in?
+      flash.now.alert = "Already signed in"
+      redirect_to rool_url
     end
+  end
 end
