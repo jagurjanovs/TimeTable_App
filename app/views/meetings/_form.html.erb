@@ -56,20 +56,20 @@
       <%= f.text_field :memberID6 %>
     </div>
     <div class="field">
-      <%= f.label :date %><br>
-      <%= f.text_field :date, :placeholder => 'DD-MM-YYYY' %>
-    </div>
-
-    <div class="field">
 
       <%= f.label :start_time %><br>
-      <%= f.select :start_time, @times%>
+      <%= f.text_field :start_time, :class => 'datetimepicker' %>
     </div>
     <div class="field">
       <%= f.label :end_time %><br>
-      <%= f.select :end_time, @times%>
+      <%= f.text_field :end_time, :class => 'datetimepicker'  %>
     </div>
     <div class="actions">
       <%= f.submit %>
     </div>
 <% end %>
+
+
+<script type="text/javascript">
+    $('.datetimepicker').datetimepicker();
+</script>

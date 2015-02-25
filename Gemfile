@@ -42,4 +42,3 @@ gem 'fullcalendar-rails'
 
 gem 'bootstrap-sass'
 gem 'bootstrap-sass-rails'
-

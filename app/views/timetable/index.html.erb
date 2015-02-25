@@ -3,11 +3,15 @@
   <script src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.min.js'></script>
   <link rel="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.css">
 
+  <h5><%= link_to 'Create Event', new_event_path %></h5>
+  <h5><%= link_to 'Create Meeting', new_meeting_path %></h5>
+
   <%= javascript_tag do %>
+
 
       $(document).ready(function() {
 
-      $('#myCalendar').fullCalendar({
+      $('#calendar').fullCalendar({
       header: {
       left: 'prev,next, today',
       center: 'title',
@@ -32,24 +36,14 @@
       ],
 
 
-      eventClick:  function(event, jsEvent, view) {
-      //set the values and open the modal
-      $("#eventInfo").html(event.description);
-      $("#eventLink").attr('href', event.url);
-      $("#eventContent").dialog({ modal: true, title: event.title });
-      }
-
       });
 
       });
-
   <% end %></head>
 
-<div id="eventContent" title="Event Details">
-  <div id="eventInfo"></div>
-  <p><strong><a id="eventLink" target="_blank">Read More</a></strong></p>
-</div>
+<div id="calendar"></div>
 
-<div id ='myCalendar'></div>
+
+
 
 
