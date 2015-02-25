@@ -39,3 +39,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'fullcalendar-rails'
+
+gem 'bootstrap-sass'
+gem 'bootstrap-sass-rails'
+

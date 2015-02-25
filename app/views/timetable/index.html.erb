@@ -1,14 +1,55 @@
-<head><script src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.min.js'></script>
+<head>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.min.js"></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.min.js'></script>
   <link rel="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.css">
 
-  <%= stylesheet_link_tag    :all %>
-  <%= javascript_include_tag :all %>
-
   <%= javascript_tag do %>
-      $(document).ready(function() {
-      $('#calendar').fullCalendar()
-      });
-  <% end %></head>
-<div id="calendar">
 
+      $(document).ready(function() {
+
+      $('#myCalendar').fullCalendar({
+      header: {
+      left: 'prev,next, today',
+      center: 'title',
+      right: 'month, agendaWeek, agendaDay'
+      },
+
+      allDayDefault: false,
+      businessHours: true,
+
+
+      eventSources: [
+      {
+      url: '/events.json',
+      color: 'yellow',
+      textColor: 'black'
+      },
+      {
+      url: '../meetings.json',
+      color: 'blue',
+      textColor: 'white'
+      }
+      ],
+
+
+      eventClick:  function(event, jsEvent, view) {
+      //set the values and open the modal
+      $("#eventInfo").html(event.description);
+      $("#eventLink").attr('href', event.url);
+      $("#eventContent").dialog({ modal: true, title: event.title });
+      }
+
+      });
+
+      });
+
+  <% end %></head>
+
+<div id="eventContent" title="Event Details">
+  <div id="eventInfo"></div>
+  <p><strong><a id="eventLink" target="_blank">Read More</a></strong></p>
 </div>
+
+<div id ='myCalendar'></div>
+
+

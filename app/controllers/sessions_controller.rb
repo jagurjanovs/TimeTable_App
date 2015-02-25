@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
 
   def create
     #Call authenticate_user method
-    user = User.authenticate_user(params[:email], params[:password])
+    user = User.authenticate_user(params[:username], params[:password])
 
     #If user is authenticated store user.id in a session variable and redirect
     #Otherwise display flash message and render new
@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
       session_create user.id
       redirect_to root_url
     else
-      flash.now.alert = "Invalid Email or Password"
+      flash.now.alert = "Invalid Username or Password"
       render 'new'
     end
   end

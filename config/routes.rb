@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :sessions
   resources :timetable
   resources :meetings
+  resources :events
 
   get 'account_confirmation', to: 'users#account_confirmation'
   # The priority is based upon order of creation: first created -> highest priority.

@@ -1,2 +1,23 @@
-<h1>Events#show</h1>
-<p>Find me in app/views/events/show.html.erb</p>
+<p>
+  <strong>Title</strong>
+  <%= @event.title %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @event.description %>
+</p>
+
+<p>
+  <strong>Date</strong>
+  <%= @event.date %>
+</p>
+<p>
+  <strong>Start Time</strong>
+  <%= @event.start_time %>
+</p>
+<p>
+  <strong>End Time</strong>
+  <%= @event.end_time %>
+</p>
+<%= link_to 'Destroy', @event, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+

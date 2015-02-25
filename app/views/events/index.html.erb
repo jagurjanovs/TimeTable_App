@@ -1,2 +1,22 @@
-<h1>Events#index</h1>
-<p>Find me in app/views/events/index.html.erb</p>
+<head><script src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.min.js'></script>
+  <link rel="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.css">
+
+  <%= javascript_tag do %>
+
+
+      $(document).ready(function() {
+
+        $('#calendar').fullCalendar({
+
+            events: 'events.json',
+            editable: true,
+            weekMode: 'liquid',
+            weekends: false
+        });
+
+
+      });
+  <% end %></head>
+<div id="calendar">
+
+</div>

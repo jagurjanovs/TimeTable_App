@@ -61,7 +61,7 @@ class UsersController < ApplicationController
 
   private
   def user_params
-    params.require(:user).permit(:title, :fname,:lname, :email,:password,:password_confirmation, :course_enrolled)
+    params.require(:user).permit(:title, :fname,:lname, :username,:password,:password_confirmation, :course_enrolled)
   end
 
   def check_signed_in

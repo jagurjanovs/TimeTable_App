@@ -1,6 +1,7 @@
 
 <% @meetings.each do |meeting| %>
     <ul>
+      <li><%=meeting.title%></li>
       <li><%=meeting.meeting_name%></li>
       <li><%=meeting.group_involved%></li>
       <li><%=meeting.agenda%></li>
@@ -10,7 +11,10 @@
       <li><%=meeting.memberID4%></li>
       <li><%=meeting.memberID5%></li>
       <li><%=meeting.memberID6%></li>
-      <li><%=meeting.day%></li>
-      <li><%=meeting.time%></li>
+      <li><%=meeting.date%></li>
+      <li><%=meeting.start_time%></li>
+      <li><%=meeting.end_time%></li>
+      <td><%= link_to 'Destroy', meeting, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     </ul>
 <% end %>
+

@@ -11,12 +11,42 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150210121300) do
+ActiveRecord::Schema.define(version: 20150223094939) do
+
+  create_table "events", force: true do |t|
+    t.string   "description"
+    t.date     "date"
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "created_by"
+    t.string   "title"
+  end
+
+  create_table "meetings", force: true do |t|
+    t.integer  "group_involved"
+    t.string   "meeting_name"
+    t.string   "agenda"
+    t.integer  "meeting_created_by"
+    t.integer  "memberID1"
+    t.integer  "memberID2"
+    t.integer  "memberID3"
+    t.integer  "memberID4"
+    t.integer  "memberID5"
+    t.integer  "memberID6"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.date     "date"
+    t.string   "title"
+  end
 
   create_table "users", force: true do |t|
     t.string   "fname"
     t.string   "lname"
-    t.string   "email"
+    t.integer  "username",             limit: 255
     t.text     "password_digest"
     t.boolean  "email_confirmed"
     t.string   "remember_token"

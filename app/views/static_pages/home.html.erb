@@ -1,5 +1,5 @@
 <% if signed_in? %>
-    <% (user = User.find(session[:user])).email %>
+    <% (user = User.find(session[:user])).username %>
     <h5><%= link_to "Signout", session_path(user), method: :delete %></h5>
     <h4><%= link_to 'Your Profile', user  %></h4>
 <% else %>

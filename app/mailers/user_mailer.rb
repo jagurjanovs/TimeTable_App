@@ -7,14 +7,14 @@ class UserMailer < ActionMailer::Base
     #set method attribute 'user' to param 'user'
     @user = user
     #send user Registration email to that user
-    mail(to: @user.email + '@umail.ucc.ie', subject: 'User Registration confirmation')
+    mail(to: @user.username + '@umail.ucc.ie', subject: 'User Registration confirmation')
   end
 
   #method to send password reset email to @param user
   def send_password_reset_mail(user)
     #set method attribute 'user' to param 'user'
   @user = user
-      mail(to: user.email + '@umail.ucc.ie', subject: 'Password Reset')
+      mail(to: user.username + '@umail.ucc.ie', subject: 'Password Reset')
     end
 end
 

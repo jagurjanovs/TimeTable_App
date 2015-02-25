@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
 
-  has_one :timetbale
+  has_one :timetable
 
   #This takes care of authentication and verification
   has_secure_password
@@ -15,13 +15,13 @@ class User < ActiveRecord::Base
   validates :title, presence: true, length: { minimum: 2, maximum: 4 }
   validates :fname, presence: true, length: { maximum: 45 }
   validates :lname, presence: true, length: { maximum: 45 }
-  validates :email, presence: true,
+  validates :username, presence: true,
             uniqueness: true, length: { minimum: 9, maximum: 9 }
   validates :password, length: { minimum: 6 }
   validates :course_enrolled, presence: true, length: { maximum: 5, minimum: 5 }
 
-  def self.authenticate_user(email, password)
-    user = find_by_email(email)
+  def self.authenticate_user(username, password)
+    user = find_by_username(username)
     if user && user.authenticate(password)
       user if user.email_confirmed
     else

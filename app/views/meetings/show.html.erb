@@ -32,6 +32,8 @@
 </p>
 <p>
   <strong>Meeting Time:</strong>
-  <%= DisplayDayTime.display_day_and_time(@meeting.day, @meeting.time) %>
+  <li><%= @meeting.date %></li>
+<li><%= @meeting.start_time %></li>
+<li><%= @meeting.end_time %></li>
 
 </p>

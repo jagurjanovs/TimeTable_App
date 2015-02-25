@@ -2,7 +2,11 @@
 <html>
 <head>
   <title>TimeTableApp</title>
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link href="/assets/fullcalendar.print.css" media="print" rel="stylesheet" />
+  <script src="/assets/moment.min.js"></script>
+  <script src="/assets/jquery.min.js"></script>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
