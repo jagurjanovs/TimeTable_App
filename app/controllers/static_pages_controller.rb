@@ -4,7 +4,6 @@ class StaticPagesController < ApplicationController
   def home
 
   end
-  def show
-
+  def AboutAppointments
   end
 end
