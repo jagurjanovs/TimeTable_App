@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>UCC Student Calendar</title>
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="form.css" />
+
+
+</head>
+<body>
+<header>
+  <img src="UCCLogo.jpg" alt="Logo of University college Cork">
+  <div id="logo">
+    <img src="calendarLogo.jpg" alt="Logo of University college Cork">
+  </div>
+</header>
+
+<nav>
+  <label for="show-menu" class="show-menu">Show Menu</label>
+  <input type="checkbox" id="show-menu" role="button">
+
+  <ul id="menu">
+    <li><a href="HomeLecturer.html">Home</a></li>
+    <li><a href="MyProfile.html">My Profile</a></li>
+    <li><a href="Calendar.html">Calendar</a></li>
+    <li><a href="YourAppointments.html">Appointments</a></li>
+  </ul>
+</nav>
+
 <%= render 'form' %>
+
+<div id="schedule">
+  <img src="unnamed.jpg" alt="Logo of University college Cork">
+</div>
+
+</div>
+<footer>
+  <p>
+    <small>
+      <strong> University College Cork </strong>
+      <img src="location.png">Western Road, Cork
+      <img src="phone.png"><a href="+353 (0)21 490 3000">+353 (0)21 490 3000</a>
+    </small>
+  </p>
+  <p>
+    <small>
+      &copy; Group One. All rights reserved.
+      <script type="text/javascript">
+          var currentDate = new Date()
+          var day = currentDate.getDate()
+          var month = currentDate.getMonth() + 1
+          var year = currentDate.getFullYear()
+          document.write("<b>" + day + "/" + month + "/" + year + "</b>")
+      </script>
+
+    </small>
+  </p>
+</footer>
+
+</body>
+
+</html>
