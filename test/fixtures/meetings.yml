@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  group_involved: 1
+  meeting_name: MyString
+  agenda: MyString
+  meeting_created_by: 1
+  memberID1: 1
+  memberID2: 1
+  memberID3: 1
+  memberID4: 1
+  memberID5: 1
+  memberID6: 1
+
+two:
+  group_involved: 1
+  meeting_name: MyString
+  agenda: MyString
+  meeting_created_by: 1
+  memberID1: 1
+  memberID2: 1
+  memberID3: 1
+  memberID4: 1
+  memberID5: 1
+  memberID6: 1
