@@ -1,10 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>UCC Student Calendar</title>
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="start.css" />
+
+
+</head>
+<body>
+<header>
+  <img src="UCCLogo.jpg" alt="Logo of University college Cork">
+  <div id="logo">
+    <img src="calendarLogo.jpg" alt="Logo of University college Cork">
+  </div>
+</header>
+
+<nav>
+  <label for="show-menu" class="show-menu">Show Menu</label>
+  <input type="checkbox" id="show-menu" role="button">
+
+  <ul id="menu">
+    <li><a href="#">UCC Home</a></li>
+    <li><a href="AboutAppointments.html">About Appointments</a></li>
+    <li><a href="ContactUs.html">Contact Us</a></li>
+    <li><a href="FAQ.html">FAQ</a></li>
+  </ul>
+</nav>
+
+<div id="main">
+  <img src="logo6.jpg" alt="Image of Western Gateway building in UCC with the Text Welcome to the UCC Timetable">
+  <div id="form">
+    <h1>Welcome</h1>
+    <p> Welcome to the UCC Timetable and Scheduler</p>
+
 <% if signed_in? %>
     <% (user = User.find(session[:user])).username %>
     <h5><%= link_to "Signout", session_path(user), method: :delete %></h5>
     <h4><%= link_to 'Your Profile', user  %></h4>
 <% else %>
-    <%= link_to "Register", new_user_path %>
+        <p> Please click on login to go the login page, if you're not registered yet, please click on register.</p>
+        <%= link_to "Register", new_user_path %>
     <%= link_to "Login", new_session_path %>
-    <h1>Welcome to the UCC timetable management system!</h1>
 <% end %>
+    <footer>
+      <p>
+        <small>
+          <strong> University College Cork </strong>
+          <img src="location.png">Western Road, Cork
+          <img src="phone.png"><a href="+353 (0)21 490 3000">+353 (0)21 490 3000</a>
+        </small>
+      </p>
+      <p>
+        <small>
+          &copy; Group One. All rights reserved.
+          <script type="text/javascript">
+              var currentDate = new Date()
+              var day = currentDate.getDate()
+              var month = currentDate.getMonth() + 1
+              var year = currentDate.getFullYear()
+              document.write("<b>" + day + "/" + month + "/" + year + "</b>")
+          </script>
+
+        </small>
+      </p>
+    </footer>
+
+</body>
+
+</html>
 
