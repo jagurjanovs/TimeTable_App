@@ -10,9 +10,9 @@
 </head>
 <body>
 <header>
-  <%image_tag"UCCLogo.jpg", alt="Logo of University college Cork"%>
+  <%= image_tag"UCCLogo.jpg", alt="Logo of University college Cork"%>
   <div id="logo">
-    <%image_tag"calendarLogo.jpg", alt="Logo of University college Cork"%>
+    <%= image_tag"calendarLogo.jpg", alt="Logo of University college Cork"%>
   </div>
 </header>
 
@@ -33,7 +33,7 @@
 
 <%= link_to 'Back', meeting_path %>
 <div id="schedule">
-  <img src="unnamed.jpg" alt="Logo of University college Cork">
+  <%=image_tag "unnamed.jpg", alt="Logo of University college Cork"%>
 </div>
 
 </div>
@@ -41,8 +41,8 @@
   <p>
     <small>
       <strong> University College Cork </strong>
-      <%image_tag "location.png"%>Western Road, Cork
-      <%image_tag "phone.png" %><a href="+353 (0)21 490 3000">+353 (0)21 490 3000</a>
+      <%= image_tag "location.png"%>Western Road, Cork
+      <%= image_tag "phone.png" %><a href="+353 (0)21 490 3000">+353 (0)21 490 3000</a>
     </small>
   </p>
   <p>
