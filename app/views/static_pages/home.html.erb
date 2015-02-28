@@ -39,7 +39,7 @@
     <h5><%= link_to "Signout", session_path(user), method: :delete %></h5>
     <h4><%= link_to 'Your Profile', user  %></h4>
 <% else %>
-        <h5><%= link_to "Login", new_session_path %></h5>
+        <h5><%= button_to "Login", new_session_path, method: :get %></h5>
         <h4><%= link_to 'Register', new_user_path  %></h4>
 <%end%>
     </div>
