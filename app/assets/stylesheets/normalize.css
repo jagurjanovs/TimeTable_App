@@ -41,10 +41,9 @@ html {
     width: 19.72%;
 }
 
-div #form{
+#form{
     float: right;
-    margin-right: 60%;
-    margin-top: 50%;
+    margin-right: 50%;
 }
 
 header h1 {
