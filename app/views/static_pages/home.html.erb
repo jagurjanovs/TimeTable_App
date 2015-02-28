@@ -40,7 +40,7 @@
     <h4><%= link_to 'Your Profile', user  %></h4>
 <% else %>
         <p> Please click on login to go the login page, if you're not registered yet, please click on register.</p>
-        <%= button_to "Register", new_users_path, :method => "get" %>
+        <%= button_to "Register", new_user_path, :method => "get" %>
         <%= button_to "Login", new_session_path, :method => "get" %>
 <% end %>
   </div>
