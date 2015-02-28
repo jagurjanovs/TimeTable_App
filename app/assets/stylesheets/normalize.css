@@ -43,13 +43,14 @@ html {
 
 main #button {
     float: right;
-    margin-right: 190px;
-    margin-top: 50px;
+    margin-right: 60%;
+    margin-top: 50%;
 }
 
 header h1 {
     float: right;
     margin-right: 10px;
+    margin-left: 10%;
 }
 
 body {
