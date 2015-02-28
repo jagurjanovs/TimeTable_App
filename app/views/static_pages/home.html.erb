@@ -36,11 +36,11 @@
 
 <% if signed_in? %>
     <% (user = User.find(session[:user])).username %>
-    <h5><%= link_to "Signout", session_path(user), method: :delete %></h5>
-    <h4><%= link_to 'Your Profile', user  %></h4>
+    <h5 id="button"><%= link_to "Signout", session_path(user), method: :delete %></h5>
+    <h4 id="button"><%= link_to 'Your Profile', user  %></h4>
 <% else %>
-        <h5><%= button_to "Login", new_session_path, method: :get %></h5>
-        <h4><%= link_to 'Register', new_user_path  %></h4>
+        <h5 id="button"><%= button_to "Login", new_session_path, method: :get %></h5>
+        <h4 id=" button"><%= link_to 'Register', new_user_path  %></h4>
 <%end%>
     </div>
 </div>

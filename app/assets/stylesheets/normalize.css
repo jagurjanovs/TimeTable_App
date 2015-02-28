@@ -18,9 +18,9 @@ html {
 
 
 #main img {
-    width: 50%;
+    width: 40%;
     float: left;
-    height:93%;
+    height:80%;
     margin-left: 0.5em;
     margin-top: 1em;
     box-shadow: 10px 10px 5px #888888;
@@ -41,7 +41,7 @@ html {
     width: 19.72%;
 }
 
-main #login {
+main #button {
     float: right;
     margin-right: 190px;
     margin-top: 50px;
