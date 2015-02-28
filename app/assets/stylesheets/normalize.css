@@ -16,6 +16,7 @@ html {
     margin-top: 3%;
 }
 
+
 #main img {
     width: 50%;
     float: left;
@@ -31,7 +32,7 @@ html {
     background-color: grey;
     width: 99.7%;
     height: 85vh;
-    -webkit-box-shadow: 4px 17px 5px -5px rgba#D8D8D8;
+    -webkit-box-shadow: 4px 17px 5px -5px #D8D8D8;
     -moz-box-shadow: 4px 17px 5px -5px #D8D8D8;
     box-shadow: 4px 17px 5px -5px #D8D8D8;
 }
