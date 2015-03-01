@@ -1,0 +1,76 @@
+form {
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 45%;
+}
+
+form button {
+    float: right;
+    margin-right: -6%;
+}
+
+select {
+    float:right;
+    width:62.5%;
+    margin:-9px;
+    font-size:18px;
+    padding:5px;
+}
+
+button {
+    float: left;
+    margin-top: 6%;
+    margin-left: 8%;
+    font-size: 112%;
+    background-color:orange;
+    opacity: 0.9;
+}
+
+#reset button {
+    margin-right: 4%;
+}
+
+label {
+    display:block;
+    margin: 1px;
+    width:105%;
+    font-size:18px;
+    color:white;
+    padding:20px 10px 10px 0;
+    margin-top: 10px;
+}
+
+input {
+    float:right;
+    width:60%;
+    margin:-9px;
+    font-size:18px;
+    padding:5px;
+}
+
+input:focus {
+    outline:none;
+    border-color:white;
+}
+
+#main h1 {
+    background-color: white;
+    padding: 5px;
+}
+
+#one1 {
+    margin-top: 3%;
+}
+
+#one1 h1 {
+    margin-bottom: 20%;
+}
+
+#schedule img {
+    float: right;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 3%;
+    height: 44em;
+}

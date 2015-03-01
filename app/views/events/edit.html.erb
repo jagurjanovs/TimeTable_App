@@ -1,34 +1,63 @@
-<h1>Events#edit</h1>
-<h1>Events#new</h1>
-<%= form_for @event, url: users_path do |f| %>
-    <% if @event.errors.any? %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Edit Event</title>
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="form.css" />
 
-        <div id="error_explanation">
-          <ul>
-            <% @user.errors.full_messages.each do |msg| %>
-                <li><%= msg %></li>
-            <% end %>
-          </ul>
-        </div>
-    <% end %>
-    <div class="field">
-      <%= f.label 'Description' %>
-      <%= f.text_field :description, placeholder: "Event Description" %>
-    </div>
-    <div class="field">
-      <%= f.label 'Date' %>
-      <%= date_field(:event, :date_held) %>
-    </div>
-    <div class="field">
-      <%= f.label 'Start Time' %>
-      <%= time_field(:event, :event_start_time) %>
-    </div>
-    <div class="field">
-      <%= f.label 'End Time' %>
-      <%= time_field(:event, :event_end_time) %>
-    </div>
-    <div class="actions">
-      <%= f.submit :create_account, value: "Create Event" %>
-    </div>
-<% end %>
 
+</head>
+<body>
+<header>
+  <%= image_tag "UCCLogo.jpg", alt="Logo of University college Cork"%>
+  <div id="logo">
+    <%= image_tag "calendarLogo.jpg", alt="Logo of University college Cork" %>
+  </div>
+</header>
+
+<nav>
+  <label for="show-menu" class="show-menu">Show Menu</label>
+  <input type="checkbox" id="show-menu" role="button">
+
+  <ul id="menu">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="users\show.html">My Profile</a></li>
+    <li><a href="timetable.html">Calendar</a></li>
+    <li><a href = "events\index.html">My Appointments</a></li>
+  </ul>
+</nav>
+
+<div id="main">
+<%= render 'form' %>
+  <div id="schedule">
+    <%image_tag "unnamed.jpg", alt="Logo of University college Cork" %>
+  </div>
+
+</div>
+<footer>
+  <p>
+    <small>
+      <strong> University College Cork </strong>
+      <%= image_tag "location.png"%>Western Road, Cork
+      <%= image_tag "phone.png" %><a href="+353 (0)21 490 3000">+353 (0)21 490 3000</a>
+    </small>
+  </p>
+  <p>
+    <small>
+      &copy; Group One. All rights reserved.
+      <script type="text/javascript">
+          var currentDate = new Date()
+          var day = currentDate.getDate()
+          var month = currentDate.getMonth() + 1
+          var year = currentDate.getFullYear()
+          document.write("<b>" + day + "/" + month + "/" + year + "</b>")
+      </script>
+
+    </small>
+  </p>
+</footer>
+
+</body>
+
+</html>

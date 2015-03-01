@@ -1,19 +1,17 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Edit user</title>
+  <title>UCC Student Calendar</title>
   <link rel="stylesheet" href="normalize.css" />
-  <link rel="stylesheet" href="form.css" />
-
+  <link rel="stylesheet" href="start.css" />
 
 </head>
 <body>
 <header>
-  <%= image_tag"UCCLogo.jpg", alt="Logo of University college Cork"%>
+  <% image_tag "UCCLogo.jpg"%>
   <div id="logo">
-    <%= image_tag"calendarLogo.jpg", alt="Logo of University college Cork"%>
+    <% image_tag"calendarLogo.jpg"%>
   </div>
 </header>
 
@@ -22,22 +20,24 @@
   <input type="checkbox" id="show-menu" role="button">
 
   <ul id="menu">
-    <li><a href="home.html">Home</a></li>
-    <li><a href="users\show.html">My Profile</a></li>
-    <li><a href="timetable.html">Calendar</a></li>
-    <li><a href="meetings\index.html">Meetings</a></li>
+    <li><a href="Welcome.html">UCC Home</a></li>
+    <li><a href="#">About Appointments</a></li>
+    <li><a href="ContactUs.html">Contact Us</a></li>
+    <li><a href="FAQ.html">FAQ</a></li>
   </ul>
 </nav>
 
-<%= render 'form' %>
+<div id="main">
+  <%= image_tag"logo6.jpg"%>
 
-<%= link_to 'Back', users_path %>
+</div>
+
 <footer>
   <p>
     <small>
       <strong> University College Cork </strong>
-      <%= image_tag "location.png"%>Western Road, Cork
-      <%= image_tag "phone.png" %><a href="+353 (0)21 490 3000">+353 (0)21 490 3000</a>
+<% image_tag"location.png"%>Western Road, Cork
+<% image_tag"phone.png"%><a href="+353 (0)21 490 3000">+353 (0)21 490 3000</a>
     </small>
   </p>
   <p>
