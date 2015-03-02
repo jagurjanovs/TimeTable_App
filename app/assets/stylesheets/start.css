@@ -1,76 +1,289 @@
-form {
-    float: left;
-    margin-left: 5%;
-    margin-top: 2%;
-    width: 45%;
+button {
+   padding: 10px 19px;
+   color: white;
+   font-size: 18px;
+   font-family: serif-serif;
+   background-color: #CC6633;
+   }
+button:hover {
+   background: #782828;
+
+   }
+button:active {
+   background: #1b435e;
+   }
+
+#home img {
+	width: 30%;
+	margin: 1%;
+	margin-top: 1.5%;
+	height:79vh;
+	margin-left: 22px;
 }
 
-form button {
-    float: right;
-    margin-right: -6%;
+form button { 
+	float: right;
+	margin-right: 4%;
 }
 
-select {
+
+#reset button {
+	margin-right: 200px;
+}
+
+
+input:focus { 
+    outline:none;
+}
+
+
+#register label { 
+    display:block;
+    margin: 1px;
+    width:125%;
+    font-family:sans-serif;
+    font-size:102%;
+    color:white;
+	 padding:20px 10px 10px 0;
+}
+
+#register input {
     float:right;
-    width:62.5%;
-    margin:-9px;
-    font-size:18px;
+	margin:-9px;
+    width:58%;
+    font-size:102%;
     padding:5px;
 }
 
-button {
-    float: left;
-    margin-top: 6%;
-    margin-left: 8%;
-    font-size: 112%;
-    background-color:orange;
-    opacity: 0.9;
+#form label { 
+    display:block;
+    margin: 1px;
+    width:125%;
+    font-family:sans-serif;
+    font-size:102%;
+    color:white;
+	 padding:20px 10px 10px 0;
+}
+
+#main p {
+	color: white;
+	font-size: 151%;
+	margin-left: 14%;
+}
+
+#form input {
+    float:right;
+	margin:-9px;
+    width:58%;
+    font-size:102%;
+    padding:5px;
+}
+
+#form{
+	float: right;
+	margin-right: 5%;
+	margin-left: 2%;
+	width: 40%;
+	margin-top: 5%;
+}
+
+
+#register h1{
+	text-align: center;
+	color: white;
+}
+
+#form  h1{
+	text-align: center;
+	color: white;
+}
+
+#register {
+	float: right;
+	margin-right: 5%;
+	margin-left: 2%;
+	width: 40%;
+	margin-top: 5%;
+}
+
+form {
+	margin-right: 16%;
+}
+
+#register button {
+	margin-top: 8%;
+	margin-right: -28%;
+}
+
+
+#form button {
+	margin-top: 10%;
+	margin-right: -28%;
 }
 
 #reset button {
-    margin-right: 4%;
+	margin-right: 5%;
 }
 
-label {
-    display:block;
-    margin: 1px;
-    width:105%;
-    font-size:18px;
-    color:white;
-    padding:20px 10px 10px 0;
-    margin-top: 10px;
+#thanks {
+	float: right;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	font-size: 120%;
+	color: white;
+	margin-top: 10%;
+	width: 40%;
+} 
+
+#thanks button {
+	margin-left: 35%;
+	margin-top: 10%;
 }
 
-input {
-    float:right;
-    width:60%;
-    margin:-9px;
-    font-size:18px;
-    padding:5px;
+
+#form-main{
+	width:30%;
+	float:right;
+	padding-top:0px;
+	margin-right: 15%;
 }
 
-input:focus {
-    outline:none;
-    border-color:white;
+#form-div {
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 30%;
+	float: right;
+	position: absolute;
+    margin-top:7%;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
 }
 
-#main h1 {
-    background-color: white;
-    padding: 5px;
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
 }
 
-#one1 {
-    margin-top: 3%;
+
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
 }
 
-#one1 h1 {
-    margin-bottom: 20%;
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
 }
 
-#schedule img {
-    float: right;
-    width: 40%;
-    margin-left: 2%;
-    margin-right: 3%;
-    height: 44em;
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+
+	
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+#submity button {
+	padding: 22px 22px;
+   color: white;
+   font-size: 15px;
+   font-family: serif-serif;
+   background-color: #CC6633;
+   width: 80%;
+}
+
+
+ul#menu li:hover > ul
+{
+	visibility:visible;
+	opacity:1;
+}
+
+ul#menu ul, ul#menu ul li ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;    
+    visibility:hidden;
+    opacity:0;
+    position: absolute;
+    z-index: 99999;
+	width:15%;
+	background:#f8f8f8;
+	box-shadow:1px 1px 3px #ccc;
+	-webkit-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-moz-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-o-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	transition:opacity 0.2s linear, visibility 0.2s linear; 	
+}
+
+
+
+ul#menu ul li ul {
+   top: 0;
+}
+
+ul#menu ul li {
+	clear:both;
+	width:100%;
+	border:0 none;
+	border-bottom:1px solid #c9c9c9;
+
+}
+
+ul#menu ul li a {
+	background:none;
+	padding:7px 15px;
+	color:#616161;
+	text-shadow:1px 1px 0px #fff;
+	text-decoration:none;
+	display:inline-block;
+	border:0 none;
+	float:left;
+	clear:both;
+	width:150px;
 }
